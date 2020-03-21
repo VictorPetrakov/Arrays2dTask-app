@@ -25,7 +25,7 @@ public class Task13 {
 
 			if (i % 2 == 0) {
 
-				for (int j = 0; j < mas.length; j++) {
+				for (int j = 0; j < mas[i].length; j++) {
 
 					mas[i][j] = j + 1;
 				}
